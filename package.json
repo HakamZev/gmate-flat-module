@@ -1,0 +1,14 @@
+{
+  "name": "gmate-flat-module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "Arif Muslax",
+  "license": "ISC"
+}
