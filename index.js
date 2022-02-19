@@ -736,9 +736,30 @@ const GMATE_CONDITIONS = {
   </div>`
 }
 
+const leaders = ['K02', 'K05', 'K19', 'K20', 'K21']
+
+function createSequence() {
+  const leadKey = leaders[Math.floor(Math.random() * leaders.length)]
+  const byCondition = {}
+  
+  for (let k in GMATE_ITEMS) {
+    const cKey = GMATE_ITEMS[k].kondisi
+      if (byCondition[cKey] === undefined) byCondition[cKey] = []
+      byCondition[cKey].push(k)
+  }
+  
+  let sekuen = byCondition[leadKey]
+  delete byCondition[leadKey]
+  
+  const randomKeys = Object.keys(byCondition).sort(() => Math.random() - 0.5)
+  for (let k of randomKeys) sekuen = [...sekuen, ...byCondition[k]]
+  return sekuen
+}
+
 exports.version = ""
-exports.leaders = []
+exports.leaders = leaders
 exports.itemKeys = Object.keys(GMATE_ITEMS)
 exports.conditionKeys = Object.keys(GMATE_CONDITIONS)
 exports.getItem = (key) => { return GMATE_ITEMS[key] }
 exports.getCondition = (key) => { return GMATE_CONDITIONS[key] }
+exports.createSequence = createSequence
