@@ -17,7 +17,7 @@ const GMATE_ITEMS = {
 		 faktor: '',
 		pilihan: [
 			{ key: 'p1', html: '<span>Lisa<span>' },
-			{ key: 'p2', html: '<span>Sambas<span>' },
+			{ key: 'p2', html: '<span>Sambalado<span>' },
 			{ key: 'p3', html: '<span>Tina<span>' },
 			{ key: 'p4', html: '<span>Sandra<span>' },
 			{ key: 'p5', html: '<span>Chris<span>' },
