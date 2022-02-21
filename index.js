@@ -488,7 +488,7 @@ const GMATE_ITEMS = {
 			{ key: 'p2', html: '<span>Kuartal ke-2<span>' },
 			{ key: 'p3', html: '<span>Kuartal ke-3<span>' },
 			{ key: 'p4', html: '<span>Kuartal ke-4<span>' },
-			{ key: 'p5', html: '<span>Bukan semua di atas<span>' },
+			{ key: 'p5', html: '<span>Kuartal ke-1 dan ke-4<span>' },
 		]
 	},
 	S42: {
@@ -545,7 +545,7 @@ const GMATE_CONDITIONS = {
   K01:
   `<div title="K01" items="3">
     <p>Divisi Anda telah menunjukkan prestasi terbaik pada tahun ini, dan perusahaan memberikan insentif berupa paket liburan ke sejumlah tujuan wisata dalam dan luar negeri. Biasanya, dalam menentukan siapa yang berhak berwisata di dalam kota, ke luar kota atau yang berhak ke luar negeri, tolok ukur utamanya adalah hierarki jabatan dan masa kerja. Namun Anda berpandangan bahwa prestasi kerja (nilai kinerja) merupakan kriteria utama, diikuti dengan yang kedua: hierarki jabatan, lalu gaji dan yang terakhir masa kerja. Untuk membantu Anda mengambil keputusan, Anda telah menentukan bahwa prestasi dua kali lebih penting daripada gaji, dan masa kerja hanya setengah pentingnya dari gaji. Jawablah pertanyaan-pertanyaan berikut berdasarkan informasi di bawah ini.</p>
-    <figure><img src="" title="Tabel dan Grafik Hierarki Jabatan"/></figure> 
+    <figure><img src="" title="Tabel dan Grafik Hierarki Jabatan"/></figure>
   </div>`,
 
   K02:
@@ -577,11 +577,11 @@ const GMATE_CONDITIONS = {
     </ul>
   </div>`,
 
-  K06: 
+  K06:
   `<div title="K06" items="2">
     <h3>Ringkasan Hasil Evaluasi Karyawan</h3>
     <p><strong>AMIR</strong> Memiliki kemampuan analisa dan sintesa yang baik meskipun kemampuannya dalam mengorganisir pekerjaan menjadi titik lemahnya. Ia mampu menuangkan hasil analisanya dalam bentuk presentasi lisan maupun tulisan secara baik, namun kurang bisa membangun hubungan kerja sama dengan tim, termasuk dalam memimpin. Ia mampu bekerja baik di bawah tekanan  sama halnya dengan dorongan untuk memberikan prestasi yang terbaik; namun dalam kesehariannya, ia belum bisa menunjukkan prestasi kerja yang baik</p>
-    <p><strong>BERTA</strong> Memiliki kemampuan yang baik dalam mengorganisir pekerjaan dengan didukung kemampuan analisa yang mendalam, namun punya kesulitan dalam menyampaikan pikiran dan gagasan secara verbal. Walaupun kooperatif bila bekerja dengan orang lain, ia menunjukkan sikap dingin dan menjaga jarak saat berperan sebagai pemimpin. Dalam kesehariannya, prestasi kerja yang ditunjukkannya tergolong normatif.</p> 
+    <p><strong>BERTA</strong> Memiliki kemampuan yang baik dalam mengorganisir pekerjaan dengan didukung kemampuan analisa yang mendalam, namun punya kesulitan dalam menyampaikan pikiran dan gagasan secara verbal. Walaupun kooperatif bila bekerja dengan orang lain, ia menunjukkan sikap dingin dan menjaga jarak saat berperan sebagai pemimpin. Dalam kesehariannya, prestasi kerja yang ditunjukkannya tergolong normatif.</p>
     <p><strong>CARLO</strong> Ia memiliki kemampuan analisa yang memadai, serta menunjukkan ketenangan dan keyakinan saat bekerja dalam tekanan dan memenuhi target. Dalam kesehariannya, prestasi kerja yang ditunjukkannya tergolong normatif. Ia merupakan karyawan terbaru, namun mudah beradaptasi dan menunjukkan sikap kooperatif yang menonjol. Dalam beberapa hal ia juga dapat memainkan peran sebagai pimpinan yang efektif. Kelugasannya tersebut juga tampak saat ia harus mengkomunikasikan gagasannya secara lisan meskipun masih memerlukan perbaikan untuk komunikasi tulisan.</p>
     <p><strong>DENNY</strong> Salah seorang karyawan paling produktif di departemen. Meskipun ia gampang tersinggung dan mempunyai kesulitan dalam berteman atau bergaul dalam kelompok. Ia memiliki kemampuan menyesuaikan diri terhadap tekanan tugas yang baik. Walaupun lancar berbicara, namun gaya berbicaranya tampak kaku. Kemampuan analisa dan sintesanya tergolong rata-rata</p>
     <p><strong>ERNI</strong> Karyawan yang kooperatif dan banyak disukai dengan skill komunikasi yang kuat. Namun sikapnya santai dan tidak suka repot-repot membuat ia kurang optimal dalam mengerjakan tugas analisa dan sintesa. Meskipun ia suka menjadi pemimpin, tetapi kemampuan pengelolaan pekerjaannya tidak optimal. Ia terkadang terlambat memenuhi target namun ia mampu untuk bekerja di bawah tekanan.</p>
@@ -592,8 +592,8 @@ const GMATE_CONDITIONS = {
     <p>Perusahaan Anda, sebuah pabrik <em>manufacturing</em> mesin diesel untuk industri, telah bekerja beberapa bulan dalam rangka mengembangkan sebuah tipe <em>genset</em> (pembangkit listrik) baru. Pada sebuah <em>meeting</em> dengan departemen produksi, dampak pengembangan produk baru itu dipaparkan secara ringkas dan perubahan berikut akan terjadi di jalur produksi A dan/atau B.</p>
     <ul>
       <li>Jalur produksi A akan kekurangan lima karyawan atau jalur produksi B akan kekurangan sepuluh karyawan.</li>
-      <li>Biaya <em>training</em> perusahaan akan meningkat jika jalur produksi A menambah karyawan baru.</li> 
-      <li>Produktivitas keseluruhan akan menurun jika jalur produksi A atau B menambah karyawan baru.</li> 
+      <li>Biaya <em>training</em> perusahaan akan meningkat jika jalur produksi A menambah karyawan baru.</li>
+      <li>Produktivitas keseluruhan akan menurun jika jalur produksi A atau B menambah karyawan baru.</li>
       <li>Area kerja harus diperluas jika departemen B menambah karyawan baru.</li>
     </ul>
   </div>`,
@@ -704,7 +704,7 @@ const GMATE_CONDITIONS = {
       <li>Keinginan untuk mencoba pekerjaan di bidang lain</li>
       <li>Lembur yang diharapkan tidak datang-datang juga</li>
       <li>Tidak cocok dengan rekan sekerja</li>
-      <li>Ketidak mampuan menyelesaikan beban pekerjaan.</li> 
+      <li>Ketidak mampuan menyelesaikan beban pekerjaan.</li>
     </ol>
   </div>`,
 
@@ -742,16 +742,16 @@ const GMATE_LEADERS = ['K02', 'K05', 'K19', 'K20', 'K21']
 function createSequence() {
   const leadKey = GMATE_LEADERS[Math.floor(Math.random() * GMATE_LEADERS.length)]
   const byCondition = {}
-  
+
   for (let k in GMATE_ITEMS) {
     const key = GMATE_ITEMS[k].kondisi
       if (byCondition[key] === undefined) byCondition[key] = []
       byCondition[key].push(k)
   }
-  
+
   let sekuen = byCondition[leadKey]
   delete byCondition[leadKey]
-  
+
   const randomKeys = Object.keys(byCondition).sort(() => Math.random() - 0.5)
   for (let k of randomKeys) sekuen = [...sekuen, ...byCondition[k]]
   return sekuen
@@ -759,13 +759,13 @@ function createSequence() {
 
 function groupedKeys() {
   const byCondition = {}
-  
+
   for (let k in GMATE_ITEMS) {
     const key = GMATE_ITEMS[k].kondisi
       if (byCondition[key] === undefined) byCondition[key] = []
       byCondition[key].push(k)
   }
-  
+
   return byCondition
 }
 
